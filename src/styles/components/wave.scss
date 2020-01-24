@@ -1,0 +1,137 @@
+.wave-bg {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+#wave {
+    width: 100vw;
+    height: auto;
+    
+    .line {
+        fill: none;
+        stroke: var(--dodger);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        opacity: 0.5;
+        animation: wave 6s ease-in-out forwards infinite;
+        &.l-1 {
+            animation-delay: 0.046875s;
+        }
+        &.l-2 {
+            animation-delay: 0.09375s;
+        }
+        &.l-3 {
+            animation-delay: 0.140625s;
+        }
+        &.l-4 {
+            animation-delay: 0.1875s;
+        }
+        &.l-5 {
+            animation-delay: 0.234375s;
+        }
+        &.l-6 {
+            animation-delay: 0.28125s;
+        }
+        &.l-7 {
+            animation-delay: 0.328125s;
+        }
+        &.l-8 {
+            animation-delay: 0.375s;
+        }
+        &.l-9 {
+            animation-delay: 0.421875s;
+        }
+        &.l-10 {
+            animation-delay: 0.46875s;
+        }
+        &.l-11 {
+            animation-delay: 0.515625s;
+        }
+        &.l-12 {
+            animation-delay: 0.5625s;
+        }
+        &.l-13 {
+            animation-delay: 0.609375s;
+        }
+        &.l-14 {
+            animation-delay: 0.65625s;
+        }
+        &.l-15 {
+            animation-delay: 0.703125s;
+        }
+        &.l-16 {
+            animation-delay: 0.75s;
+        }
+        &.l-17 {
+            animation-delay: 0.796875s;
+        }
+        &.l-18 {
+            animation-delay: 0.84375s;
+        }
+        &.l-19 {
+            animation-delay: 0.890625s;
+        }
+        &.l-20 {
+            animation-delay: 0.9375s;
+        }
+        &.l-21 {
+            animation-delay: 0.984375s;
+        }
+        &.l-22 {
+            animation-delay: 1.03125s;
+        }
+        &.l-23 {
+            animation-delay: 1.078125s;
+        }
+        &.l-24 {
+            animation-delay: 1.125s;
+        }
+        &.l-25 {
+            animation-delay: 1.171875s;
+        }
+        &.l-26 {
+            animation-delay: 1.21875s;
+        }
+        &.l-27 {
+            animation-delay: 1.265625s;
+        }
+        &.l-28 {
+            animation-delay: 1.3125s;
+        }
+        &.l-29 {
+            animation-delay: 1.359375s;
+        }
+        &.l-30 {
+            animation-delay: 1.40625s;
+        }
+        &.l-31 {
+            animation-delay: 1.453125s;
+        }
+        &.l-32 {
+            animation-delay: 1.5s;
+        }
+    }
+}
+@keyframes wave {
+    0% {
+        stroke-width: 1px;
+        opacity: 0.5;
+    }
+    2% {
+        stroke-width: 3px;
+        opacity: 1;
+    }
+    10%,
+    100% {
+        stroke-width: 1px;
+        opacity: 0.5;
+    }
+}

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { Route, Link, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Home from './routes/Home';
 import Portfolio from './routes/Portfolio';
+import Wave from './components/Wave';
 
 const user = {
     name: 'Don',
@@ -15,6 +16,7 @@ const Index = (props) => {
 
 const routing = (
     <Router>
+        <Wave/>
         <div>
             <div>
                 <nav>
